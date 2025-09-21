@@ -1,0 +1,21 @@
+{
+    "name":"TechCal",
+    "short_name":"TechCal",
+    "description":"progressive web TechCal",
+    "start_url":"/",
+    "background_color":"#2c3e50",
+    "theme_color":"#2c3e50",
+    "orientation":"portrait",
+    "icons":[
+        {
+            "src":"icon-195x195.png",
+            "sizes":"195x195",
+            "type":"image/png"
+        },
+        {
+            "src":"icon-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ]
+}
