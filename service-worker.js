@@ -1,11 +1,12 @@
-const CACHE_NAME='TechCal-v1';
-const urlToCache=[
+toconst CACHE_NAME='TechCal-v1';
+const urlsToCache=[
     '/',
     '/index.html',
     '/index.css',
-    '/script,js',
+    '/script.js',
     '/manifest.json',
     '/icon-192x192.png',
+    '/icon-512x512.png',
 ];
 
 //install event
@@ -13,7 +14,7 @@ self.addEventListener('install',event =>{
     event.waitUntil(
         caches.open(CACHE_NAME)
         .then(cache=>{
-            return cache.addAll(urlToCache);
+            return cache.addAll(urlsToCache);
             
         })
     );
@@ -44,4 +45,5 @@ self.addEventListener('activate',event=>{
             );
         })
     );
+
 });
