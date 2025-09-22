@@ -1,8 +1,8 @@
 {
     "name":"TechCal",
-    "short_name":"TechCal",
+    "short_name":"TechC",
     "description":"progressive web TechCal",
-    "start_url":"./",
+    "start_url":"index.html",
     "background_color":"#2c3e50",
     "theme_color":"#2c3e50",
     "orientation":"portrait",
@@ -20,3 +20,4 @@
     ]
 
 }
+
