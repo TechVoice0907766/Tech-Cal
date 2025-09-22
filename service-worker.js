@@ -1,12 +1,12 @@
 const CACHE_NAME='TechCal-v1';
 const urlsToCache=[
-    '/',
-    '/index.html',
-    '/index.css',
-    '/script.js',
-    '/manifest.json',
-    '/icon-195x195.png',
-    '/icon-512x512.png',
+    '/Tech-Cal/',
+    '/Tech-Cal/index.html',
+    '/Tech-Cal/index.css',
+    '/Tech-Cal/script.js',
+    '/Tech-Cal/manifest.json',
+    '/Tech-Cal/icon-195x195.png',
+    '/Tech-Cal/icon-512x512.png',
 ];
 
 //install event
@@ -47,5 +47,6 @@ self.addEventListener('activate',event=>{
     );
 
 });
+
 
 
