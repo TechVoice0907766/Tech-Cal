@@ -1,4 +1,4 @@
-toconst CACHE_NAME='TechCal-v1';
+const CACHE_NAME='TechCal-v1';
 const urlsToCache=[
     '/',
     '/index.html',
@@ -47,4 +47,5 @@ self.addEventListener('activate',event=>{
     );
 
 });
+
 
