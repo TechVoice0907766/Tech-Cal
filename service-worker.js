@@ -5,7 +5,7 @@ const urlsToCache=[
     '/index.css',
     '/script.js',
     '/manifest.json',
-    '/icon-192x192.png',
+    '/icon-195x195.png',
     '/icon-512x512.png',
 ];
 
@@ -47,3 +47,4 @@ self.addEventListener('activate',event=>{
     );
 
 });
+
